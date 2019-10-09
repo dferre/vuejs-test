@@ -1,0 +1,67 @@
+.characters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100vw; }
+  .characters .hero, .characters .villian {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .characters .hero .healthBar, .characters .villian .healthBar {
+      width: 100%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: white;
+      font-size: 5em;
+      font-family: Georgia, san-serif;
+      font-weight: bold;
+      font-style: italic; }
+  .characters .hero {
+    background: red;
+    background-image: url(/assets/conor.jpeg);
+    background-size: cover;
+    background-position: center center; }
+    .characters .hero .healthBar {
+      background: rgba(36, 94, 44, 0.9); }
+  .characters .villian {
+    background: blue;
+    background-image: url(/assets/khabib.jpeg);
+    background-size: cover;
+    background-position: center center; }
+    .characters .villian .healthBar {
+      background: rgba(140, 33, 33, 0.9); }
+
+.actions {
+  display: block;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.75);
+  width: 1000px;
+  padding: 20px 40px;
+  bottom: 5vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.45); }

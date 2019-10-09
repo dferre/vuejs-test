@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MMA Battle</title>
+        <!-- Meta Tags-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <!-- Stylesheets-->
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="app.css" type="text/css">
+        <!-- Scripts-->
+        <!-- Development VueJs-->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <!-- Production VueJs-->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </head>
+    <body>
+        <main class="app">
+            <!-- App Goes here-->
+
+            <div class="characters">
+                <div class="hero">
+                    <div class="healthBar" style="height: 20%">100</div>
+                </div>
+                <div class="villian">
+                    <div class="healthBar">100</div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <div class="action">
+                    <button class="start">Let's Fight!</button>
+                </div>
+                <div class="action">
+                    <button class="strike">Use Strike</button>
+                </div>
+                <div class="action">
+                    <button class="takedown">Use Takedown</button>
+                </div>
+                <div class="action">
+                    <button class="heal">Take A Breath</button>
+                </div>
+                <div class="action">
+                    <button class="tap">Tap Out</button>
+                </div>
+            </div>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>
